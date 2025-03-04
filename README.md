@@ -10,10 +10,9 @@ The project uses the CIFAR-10 dataset—a standard benchmark in computer vision 
 - **Classes:** airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
 
 ## Image Classification Workflow
-The project is organized into several steps that mimic the typical stages of data processing and analysis. Implementations are available in both [TensorFlow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/), located in the [notebooks](/notebooks) folder. Each notebook details specific steps of the process.
+The project is organized into several steps that mimic the typical stages of data processing and analysis.
 
 ### **CIFAR-10 Classification Using TensorFlow**
-> **Notebook:** [image-classification-tensorflow.ipynb](https://github.com/sinanw/cnn-image-classification/blob/main/notebooks/image-classification-tensorflow.ipynb)
 
 1. **Initialization:** Import all necessary libraries and modules.
 2. **Loading the Dataset:** Retrieve the CIFAR-10 dataset from the Keras library in TensorFlow and examine its details.
@@ -36,10 +35,9 @@ The project is organized into several steps that mimic the typical stages of dat
    - **Epochs:** 25
 6. **Performance Analysis:** Evaluate model performance by plotting training and validation accuracy over the epochs.
 
-   ![CIFAR10 CNN Classification Results - Tensorflow](reports/figures/cifar10_cnn_classification_results_tensorflow.png)
 
 ### **CIFAR-10 Classification Using PyTorch**
-> **Notebook:** [image-classification-pytorch.ipynb](https://github.com/sinanw/cnn-image-classification/blob/main/notebooks/image-classification-pytorch.ipynb)
+
 
 1. **Initialization:** Import the required libraries and modules.
 2. **Loading and Transforming the Dataset:** 
@@ -60,6 +58,5 @@ The project is organized into several steps that mimic the typical stages of dat
 4. **Model Training:** Train the model for 25 epochs.
 5. **Performance Analysis:** Plot and analyze the training and validation accuracy over epochs.
 
-   ![CIFAR10 CNN Classification Results - PyTorch](reports/figures/cifar10_cnn_classification_results_pytorch.png)
 
-Feel free to ask if you need further clarification or additional details on any of the steps!
+
